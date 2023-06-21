@@ -37,6 +37,8 @@ body {
   gap: 0.8rem;
   height: 8rem;
   margin-bottom: 2.6rem;
+  box-shadow: 0.1rem 0.2rem 15rem 0.2rem black;
+  padding: 0 2rem;
 }
 
 .display .history p {
