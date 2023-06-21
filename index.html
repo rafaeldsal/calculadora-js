@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/scripts.js" defer></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <div class="history">
+          <p class="previous-operation"></p>
+        </div>
+        <div class="values">
+          <img
+            class="values-img hide"
+            src="./img/equals.svg"
+            alt="sinal de igualdade"
+          />
+          <h3 class="current-operation"></h3>
+        </div>
+      </div>
+      <div class="keyboard">
+        <input type="button" value="CE" class="clear-display" />
+        <input type="button" value="C" class="clear-all" />
+        <input type="button" value="%" class="percent" />
+        <input type="button" value="/" class="operators division" />
+        <input type="button" value="7" class="number" />
+        <input type="button" value="8" class="number" />
+        <input type="button" value="9" class="number" />
+        <input type="button" value="x" class="operators" />
+        <input type="button" value="4" class="number" />
+        <input type="button" value="5" class="number" />
+        <input type="button" value="6" class="number" />
+        <input type="button" value="-" class="operators subtraction" />
+        <input type="button" value="1" class="number" />
+        <input type="button" value="2" class="number" />
+        <input type="button" value="3" class="number" />
+        <input type="button" value="+" class="operators addition" />
+        <input type="button" value="+/-" />
+        <input type="button" value="0" class="number" />
+        <input type="button" value="," />
+        <input type="button" value="=" class="equals" />
+      </div>
+    </div>
+  </body>
+</html>
